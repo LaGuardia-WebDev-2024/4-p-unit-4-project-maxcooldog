@@ -1,30 +1,69 @@
-<!--
-Requirements
-[  ] Google Font OR Uploaded Font
-[  ] font-size OR font-style 
-[  ] Five CSS Rules
-[  ] Three Images
-
-Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Static Background Image
-[ no ] Feature 2 - Use a unique border-radius
-[ no ] Feature 3 - Use width and margin CSS Properties
-[ no ] Feature 4 - Include at least one more additional HTML page
--->
-
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Unit 4 Project</title>
-  <meta charset="utf-8">
-  <style>
+    <meta charset="utf-8" />
+    <title>Globetrotting Glam - The Ultimate Travel Experience</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 
-  </style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: url('https://imgs.search.brave.com/0kGCeBj01Je1XAGSk1ZTgO-cVwKdRBtdFQwxTkNkthE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTg0/MTAzODY0L3Bob3Rv/L2Nsb3Vkcy1vbi1z/a3kuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPTNKR0kxM0I4/eHdaSU9iTHRsOElO/MVZGdFBFckh2MnBL/aVdWMHRUdWVtc0k9'); 
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            color: #333;
+        }
+
+    </style>
 </head>
 <body>
+  
 
- 
+    <header>
+        <h1>Wild adventures with Max</h1>
+        <p>Starring Max</p>
+    </header>
 
+    <section class="intro">
+        <h2>About Me</h2>
+        <p>I'm a traveling entrepreneur visiting the exotic landmarks the world has to offer! </p>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://imgs.search.brave.com/RIU-qyRIswa85mAbXecXfNRhkmbClTu1EthTJr4WJpw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc4/NDE2OTE3L3Bob3Rv/L2x1eHVyeS1ob3Rl/bC1yb29tLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1pLTF5/aWtfNzYzUDR4T0pO/bTFOVGRUQ0JmNnFY/Ymc1S2ZsdjU5RmNC/NzFnPQ" alt="Luxury Hotel" width="200" height="100">
+            <h3>Exclusive Hotel Stays</h3>
+            <p>Indulge in the finest accommodations that redefine luxury.</p>
+        </div>
+        <div class="product">
+            <img src="https://imgs.search.brave.com/z7RtgTwJ6LLOV616A7AuNJMR-qzwiu649u788X3uJZU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDcx/ODg0NjkxL3Bob3Rv/L3ByaXZhdGUtamV0/LWludGVyaW9yLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz16/QkNJTllxWnRpSWtP/SG13M2VJNDdodFp5/T1l5RFpBU1FQLVV4/MVpXdHp3PQ" alt="Private Jet" width="200" height="100">
+            <h3>Private Jet Experiences</h3>
+            <p>Fly high in style and comfort with our curated jet packages.</p>
+        </div>
+        <div class="product">
+            <img src="https://imgs.search.brave.com/hMWjLkfwwXIxJD2pvPRMP5gBL0rrx8R8kGeUMjOQ2t8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hLXot/YW5pbWFscy5jb20v/bWVkaWEvMjAyMi8w/NC9zaHV0dGVyc3Rv/Y2tfNDc0NzQ1OTMt/MTAyNHg2MTQuanBn" alt="Exotic Island" width="200" height="100">
+            <h3>Exotic Island Retreats</h3>
+            <p>Escape to paradise with our hand-picked tropical destinations.</p>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="blog-post">
+            <img src="https://imgs.search.brave.com/g6P_nxMIE41A_fWcDyyD_E1dlSjjLiV2M91KUBFmVfo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9xdHhh/c3NldC5jb20vcXVh/cnR6L3FjbG91ZDEv/c3R5bGVzL2Z1bGxf/Ym9keV93aWR0aC9z/My9tZWRpYS9pbWFn/ZS9Gb21pbi5DbHVi/Xy5DcnVpc2UuanBn/P1ZlcnNpb25JZD1Y/WVVIZE05TVF6SDlr/YXhmSWcuU21qRjN1/QVNSLjNvdyZpdG9r/PWFlSllYNEdw" alt="Day in My Life" width="200" height="100">
+            <h3>A Day in My Life</h3>
+            <p>Ever wondered what it's like to live the glam life? Here's a sneak peek!</p>
+        </div>
+        <div class="blog-post">
+            <img src="https://imgs.search.brave.com/cM-bi_yd06Mb4wFpZpjoXNTT2F0_CIri7JJS6WqeuC0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZHJlYW12YWNhdGlv/bnNmcmFuY2hpc2Uu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzA4L0hvdy1U/by1CZWNvbWUtQS1I/b21lLUJhc2VkLVRy/YXZlbC1BZ2VudC0x/MDI0eDUxMC5qcGc" alt="Travel Tips" width="200" height="100">
+            <h3>Travel Tips for the Luxe Life</h3>
+            <p>Learn the secrets to traveling in style and comfort.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Follow me on:</p>
+        <a href="#">Instagram</a> | <a href="#">YouTube</a> | <a href="#">Twitter</a>
+    </footer>
 </body>
 </html>
